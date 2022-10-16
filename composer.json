@@ -4,8 +4,15 @@
       "App\\": "src"
     }
   },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:peterjaap/twitter-php.git"
+    }
+  ],
   "require": {
-    "j7mbo/twitter-api-php": "^1.0",
-    "guzzlehttp/guzzle": "^7.5"
+    "guzzlehttp/guzzle": "^7.5",
+    "vlucas/phpdotenv": "^5.4",
+    "dg/twitter-php": "dev-patch-1"
   }
 }
